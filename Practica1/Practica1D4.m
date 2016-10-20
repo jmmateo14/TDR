@@ -9,6 +9,7 @@ t = tinicio:(tfinal - tinicio) / (np - 1):tfinal;
 X1 = sin(pi/4*t);
 X2 = cos(pi/4*t);
 %4
-F = X1 / X2
+F = X1./X2;
 plot(t,F);
+ylim([-5, 5])
 grid
